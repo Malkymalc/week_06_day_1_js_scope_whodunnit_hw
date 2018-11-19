@@ -27,6 +27,7 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+'Miss Scarlet'
 
 #### Episode 2
 
@@ -45,6 +46,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+Professor Plum - nurderer is const'd before changeMurderer() is run.
 
 #### Episode 3
 
@@ -62,6 +64,9 @@ console.log('First Verdict: ', firstVerdict);
 const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 ```
+'First Verdict: The Murderer is Mrs Peacock'
+'Second Verdict: The Murderer is Professor Plum'
+
 
 #### Episode 4
 
@@ -79,6 +84,8 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 ```
+['Miss Scarlet', 'Professor Plum', 'Colonel Mustard']
+'Suspect three is Mrs. Peacock'
 
 #### Episode 5
 
@@ -101,6 +108,7 @@ changeWeapon('Revolver');
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+'The weapon is the Revolver'
 
 #### Episode 6
 
@@ -125,6 +133,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+//'The murderer is Mrs. White'
 
 #### Episode 7
 
@@ -155,6 +164,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+'The murderer is Mr Green'
 
 #### Episode 8
 
@@ -194,6 +204,7 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 ```
+'The weapon is Candlestick'
 
 #### Episode 9
 
@@ -211,6 +222,7 @@ const declareMurderer = function() {
 const verdict = declareMurderer();
 console.log(verdict);
 ```
+'The murderer is Mrs. Peacock'
 
 ### Extensions
 
